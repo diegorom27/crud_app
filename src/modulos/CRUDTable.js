@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import CRUDTableRow from './CRUDTableRow'
 
 const CRUDTable=({datos,dataToEdit,setDataToEdit,deleteData})=>{
