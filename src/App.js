@@ -1,12 +1,8 @@
 import React from 'react';
-import CRUDApp from './modulos/CRUDApp'
 
 function App() {
-  return (
-    <div className="App">
-      <CRUDApp/>
-    </div>
-  );
+  const value = 'World';
+  return <div>Hello {value}</div>;
 }
 
 export default App;
