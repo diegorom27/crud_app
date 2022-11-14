@@ -4,7 +4,7 @@ import CRUDTableRow from './CRUDTableRow'
 const CRUDTable=({datos,dataToEdit,setDataToEdit,deleteData})=>{
     
     return(
-        <div>
+        <>
             <table>
                 <thead>
                     <tr>
@@ -26,7 +26,7 @@ const CRUDTable=({datos,dataToEdit,setDataToEdit,deleteData})=>{
                     }
                 </tbody>
             </table>
-        </div>
+        </>
     )   
 }
 export default CRUDTable

@@ -42,7 +42,7 @@ const CRUDForm=({datos,createData,updateData,dataToEdit,setDataToEdit})=>{
     }
 
     return(
-        <div>
+        <>
             <h4>{dataToEdit===null?'Crear Caballero':'Editar caballero'}</h4>
             <form onSubmit={handleOnSubmit}>
                 <input type='text' name='nombre' placeholder='Nombre' onChange={handleChange} value={data.nombre}/>
@@ -50,7 +50,7 @@ const CRUDForm=({datos,createData,updateData,dataToEdit,setDataToEdit})=>{
                 <input type='submit' value='Enviar' />
                 <input type='reset' value='Borrar' onClick={handleOnReset}/>
             </form>
-        </div>
+        </>
     )   
 }
 export default CRUDForm

@@ -48,7 +48,7 @@ const initialData =[
     }
 
     return(
-        <div>
+        <>
             <h1>{props.titulo}</h1>
             <CRUDForm datos={data} 
             createData={createData}
@@ -59,7 +59,7 @@ const initialData =[
             dataToEdit={dataToEdit} 
             setDataToEdit={setDataToEdit}
             deleteData={deleteData}/>
-        </div>
+        </>
     )
 }
 CRUDApp.defaultProps ={
